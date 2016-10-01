@@ -19,7 +19,7 @@ RUN \
 # install jackett
  mkdir -p \
 	/app/Jackett && \
- jack_tag=$(curl -sX GET "https://github.com/dreamcat4/Jackett-public/releases/latest" \
+ jack_tag=$(curl -sX GET "https://api.github.com/repos/dreamcat4/Jackett-public/releases/latest" \
 	| awk '/tag_name/{print $4;exit}' FS='[""]') && \
  curl -o \
  /tmp/jacket.tar.gz -L \
