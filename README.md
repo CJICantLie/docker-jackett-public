@@ -1,3 +1,5 @@
+Fork of Linuxserver's docker-jackett to include the jackett-public variant
+
 [linuxserverurl]: https://linuxserver.io
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/index.php/irc/
