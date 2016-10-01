@@ -1,5 +1,5 @@
 FROM lsiobase/alpine
-MAINTAINER sparklyballs
+MAINTAINER reiuiji
 
 # environment settings
 ENV XDG_DATA_HOME="/config" \
